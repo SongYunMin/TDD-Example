@@ -11,6 +11,10 @@ public class JunitTest {
         return a+b;
     }
 
+    public int minus(int a, int b){
+        return a-b;
+    }
+
     public JunitTest(String name, int age){
         this.name = name;
         this.age = age;
