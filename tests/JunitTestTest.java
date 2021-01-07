@@ -10,7 +10,7 @@ public class JunitTestTest {
     @BeforeClass
     public static void makeInstance() throws Exception {
         junitTest = new JunitTest("홍길동", 20, 180.0f);
-
+        System.out.println("wqejwqk");
     }
 
     // @Before : 단위 테스트 메소드가 실행되기전 무조건 실행 됨

@@ -7,6 +7,10 @@ public class JunitTest {
         this.name = name;
     }
 
+    public int plus(int a, int b){
+        return a+b;
+    }
+
     public JunitTest(String name, int age){
         this.name = name;
         this.age = age;
